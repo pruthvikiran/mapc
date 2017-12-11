@@ -484,7 +484,14 @@ ul.head-left li:nth-child(2) {
 nav.navbar.navbar-default {
     background: none;
     border: none;
-	margin: 0;
+	margin: 18px;
+}
+.navbar-brand {
+    float: left;
+    height: 90px!important;
+    padding: 0px 15px!important;
+    font-size: 18px;
+    line-height: 20px;
 }
 .head-t {
     border-bottom: 1px dashed #C69C6C;
@@ -497,12 +504,12 @@ nav.navbar.navbar-default {
 	font-size:3em;
 }
 .ser-grid h5{
-	color:#000;
+	color:#1b1b1b;
 	font-size:1.5em;
 	margin-top:1em;
 }
 .ser-grid p{
-	color:#999;
+	color:#2b2626;
 	font-size:1em;
 	line-height:2em;
 }
@@ -597,7 +604,7 @@ nav.navbar.navbar-default {
   content: '';
   width: 100%;
   height: 100%;
-  background:#000;
+  background:rgba(255, 255, 255, .15);;
   position: absolute;
   top: 0;
   left: 0;
@@ -634,7 +641,7 @@ nav.navbar.navbar-default {
 /*--produts--*/
 .content-pro-head p{
 	font-size:1em;
-	color:#999;
+	color:#484848;
 	line-height:2em;
 }
 .content-pro-head h3 {
